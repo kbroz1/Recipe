@@ -81,6 +81,13 @@ h3 {
     font-size:50px;
 }
 
+h3:hover {
+    background-color:olivedrab;
+    color: white;
+    transform: skewX(20deg);
+
+}
+
 .steps {
     font-size: 20px;
 }
