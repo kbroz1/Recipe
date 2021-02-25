@@ -1,5 +1,117 @@
-.container1 {
+*{
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+h1 {
+    text-align:center;
+    font-weight:bold;
+    font-size:60px;
+    color:chocolate;
+}
+
+.intro {
+    margin-left: 20px;
+    margin-right: 20px;
+    font-size: 22px;
+    font-style:italic;
+}
+
+h6 {
+    text-align:center;
+   background-color:olivedrab;
+    font-size: 18px;
+    padding: 2px;
+    color:papayawhip;
+
+}
+
+h6:hover{
+    cursor:pointer;
+    transition-duration: 1s;
+    transition-timing-function: ease-in-out;
+    transform: skewX(20deg);
+    background-color: peru;
+    
+}
+
+.container1, .container2, .container3, .container4, .container5 {
     display:flex;
     flex-direction: row;
-    flex-wrap: wrap;
+    
+}
+
+
+
+.container2 {
+    display:flex;
+    flex-direction: row;
+    justify-content:center;
+
+}
+
+.container3 {
+    display:flex;
+    flex-direction:row-reverse;
+}
+
+.container5{
+    display:flex;
+    flex-direction:row-reverse;
+}
+
+.container3 {
+    display:flex;
+}
+
+.flex-two {
+    margin: 20px;
+   font-size:20px;
+   padding: 5px;
+   
+}
+
+h4 {
+    font-size: 25px;
+    background-color:olivedrab;
+    color:white;
+    padding: 5px;
+}
+
+h3 {
+    font-size:50px;
+}
+
+.steps {
+    font-size: 20px;
+}
+
+.steps:hover{
+    color:white;
+    transform:scale(1,2)
+}
+
+.step1, .step2, .step3, .step4 {
+    margin: 20px;
+    padding:10px;
+    background-color:chocolate;
+}
+
+
+img {
+    width:390px;
+    height:475px;
+}
+
+img:hover{
+    border:olivedrab dashed 2px;
+    transform: translateY(-30px);
+}
+
+.intropic {
+    display:flex;
+    width: 300px;
+    height:320px;
+    align-items: center;
+    margin-top: 30px;
+
 }
